@@ -7,6 +7,8 @@ import json
 from streamlit_lottie import st_lottie
 import pandas as pd
 
+st.set_page_config(page_title="🔍 주식 정보 시각화")
+
 # 시장 데이터를 읽어오는 함수 (미국 주식 호환)
 @st.cache_data(ttl=3600)
 def getData(code, datestart, dateend):
