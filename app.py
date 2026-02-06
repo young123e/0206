@@ -242,7 +242,7 @@ if st.session_state.show_list and st.session_state.df_result is not None:
     create_clickable_dataframe(st.session_state.df_result)
 
 # 2단계: 수동 입력 (항상 표시)
-st.header("차트 그리기")
+st.header("주식 차트 시각화")
 
 with st.form(key='get_chart'):
     col1, col2, col3= st.columns([1, 2, 1])
