@@ -1,0 +1,6 @@
+streamlit
+FinanceDataReader
+mplfinance
+matplotlib
+pandas
+streamlit-lottie
